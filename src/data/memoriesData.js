@@ -1,9 +1,19 @@
+import cagsawaCover from '/src/assets/Pictures/Adventures/Cagsawa/Cagsawa (3).jpg';
+import dagatTripCover from '/src/assets/Pictures/Adventures/Dagat Trip/Dagat Trip (4).jpg';
+import firstDatesCover from '/src/assets/Pictures/Adventures/First Dates/First Dates (1).jpg';
+import farmplateCover from '/src/assets/Pictures/Adventures/Holy Week Farmplate/Farmplate (4).jpg';
+import nyAndCmCover from '/src/assets/Pictures/Adventures/New Year & Christmas/NY and CM (6).jpeg';
+import surfingCover from '/src/assets/Pictures/Adventures/Surfing/Surfing (11).jpeg';
+import friendsAndFamCover from '/src/assets/Pictures/Adventures/With Friends and Fam/FnF (2).jpeg';
+import foodDatesCover from '/src/assets/Pictures/Food Dates/Food (2).jpeg';
+import selfiesAndShenanigansCover from '/src/assets/Pictures/Shenanigans/SS (156).jpg';
+
 export const albums = [
     {
         id: 'first-dates',
         title: 'First Dates',
         folderName: 'Adventures/First Dates',
-        coverImage: '/src/assets/Pictures/Adventures/First Dates/First Dates (1).jpg',
+        coverImage: firstDatesCover,
         description: 'Where it all began... 💖',
 
         specialCaptions: {
@@ -18,7 +28,7 @@ export const albums = [
         id: 'dagat-trip',
         title: 'Dagat Trip',
         folderName: 'Adventures/Dagat Trip',
-        coverImage: '/src/assets/Pictures/Adventures/Dagat Trip/Dagat Trip (4).jpg',
+        coverImage: dagatTripCover,
         description: 'A trip to the sea 🌊',
 
         specialCaptions: {
@@ -37,7 +47,7 @@ export const albums = [
         id: 'farmplate',
         title: 'Holy Week at Farmplate',
         folderName: 'Adventures/Holy Week Farmplate',
-        coverImage: '/src/assets/Pictures/Adventures/Holy Week Farmplate/Farmplate (4).jpg',
+        coverImage: farmplateCover,
         description: 'Holy Week getaway to Farmplate 🌾',
 
         specialCaptions: {
@@ -49,7 +59,7 @@ export const albums = [
         id: 'cagsawa',
         title: 'Cagsawa',
         folderName: 'Adventures/Cagsawa',
-        coverImage: '/src/assets/Pictures/Adventures/Cagsawa/Cagsawa (3).jpg',
+        coverImage: cagsawaCover,
         description: 'A trip to the Cagsawa Ruins 🏛️',
         specialCaptions: {
             'Cagsawa (8).jpg': 'Nahulog an bibi sa tamaw hehe',
@@ -61,7 +71,7 @@ export const albums = [
         id: 'ny-and-cm',
         title: 'New Year and Christmas',
         folderName: 'Adventures/New Year & Christmas',
-        coverImage: '/src/assets/Pictures/Adventures/New Year & Christmas/NY and CM (6).jpeg',
+        coverImage: nyAndCmCover,
         description: 'Celebrating the holidays together 🎄🎉',
 
         specialCaptions: {
@@ -74,7 +84,7 @@ export const albums = [
         id: 'friends-and-fam',
         title: 'With Friends and Family',
         folderName: 'Adventures/With Friends and Fam',
-        coverImage: '/src/assets/Pictures/Adventures/With Friends and Fam/FnF (2).jpeg',
+        coverImage: friendsAndFamCover,
         description: 'Memories with our closest people 🤗',
 
         specialCaptions: {
@@ -99,7 +109,7 @@ export const albums = [
         id: 'surfing',
         title: 'Surfing',
         folderName: 'Adventures/Surfing',
-        coverImage: '/src/assets/Pictures/Adventures/Surfing/Surfing (11).jpeg',
+        coverImage: surfingCover,
         description: 'Catch the waves together 🏄🏽‍♀️',
 
         specialCaptions: {
@@ -112,7 +122,7 @@ export const albums = [
         id: 'selfies-&-shenanigans',
         title: 'Shenanigans',
         folderName: 'Shenanigans',
-        coverImage: '/src/assets/Pictures/Shenanigans/SS (156).jpg',
+        coverImage: selfiesAndShenanigansCover,
         description: 'Fun moments and silly faces 😄',
 
         specialCaptions: {
@@ -155,7 +165,7 @@ export const albums = [
         id: 'food-dates',
         title: 'Food Dates',
         folderName: 'Food Dates',
-        coverImage: '/src/assets/Pictures/Food Dates/Food (2).jpeg',
+        coverImage: foodDatesCover,
         description: 'Lamon! 🍽️',
 
         specialCaptions: {

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 // 1. Import your static picture 
 import dollyImage from '../assets/dolly-animations/dolly-happy.png'; // Update the extension if it is a .jpg
-
+import welcomeImage from '../assets/Pictures/Welcome.jpg'; // Update the extension if it is a .jpg
 export default function Welcome({ onNext }) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-pink-100 via-pink-200 to-pink-300 p-6 text-center">
@@ -41,7 +41,7 @@ export default function Welcome({ onNext }) {
           transition={{ delay: 0.7, duration: 0.6 }}
         >
           <img
-            src="/src/assets/Pictures/Welcome.jpg" 
+            src={welcomeImage}
             alt="The two of us"
             className="w-full h-full object-cover"
           />
