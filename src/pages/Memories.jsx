@@ -144,15 +144,8 @@ export default function Memories({ onNext }) {
           {/* Map through our pre-randomized array */}
           {randomizedPhotos.map((photo, index) => {
             
-            // 1. Check for a special caption!
-            let caption = "";
-            if (albumData.specialCaptions) {
-              Object.keys(albumData.specialCaptions).forEach(fileName => {
-                if (decodeURIComponent(photo.src).includes(fileName)) {
-                  caption = albumData.specialCaptions[fileName];
-                }
-              });
-            }
+            // We simply grab the caption we calculated earlier!
+            const caption = photo.caption;
 
             return (
               <motion.div
@@ -168,13 +161,10 @@ export default function Memories({ onNext }) {
                   damping: 15, 
                   delay: index * 0.05 
                 }}
-                // 1. ADDED WIDTH CONSTRAINTS: w-48 md:w-64
-                // This locks the card width so the text is forced to wrap downwards!
                 className={`absolute bg-white p-4 shadow-xl rounded-sm cursor-grab border border-gray-100 w-48 md:w-64 ${caption ? 'pb-6' : 'pb-12'}`}
                 style={{ zIndex: index }}
               >
                 
-                {/* 2. Updated the image container to w-full aspect-square to perfectly fit the new locked parent width */}
                 <div className="w-full aspect-square bg-gray-100 overflow-hidden pointer-events-none">
                   <img 
                     src={photo.src} 
@@ -183,7 +173,6 @@ export default function Memories({ onNext }) {
                   />
                 </div>
                 
-                {/* 3. Added 'break-words' to ensure text behaves nicely */}
                 {caption && (
                   <p className="text-center font-serif mt-3 text-gray-700 text-sm md:text-base px-2 transform -rotate-1 pointer-events-none break-words">
                     {caption}
