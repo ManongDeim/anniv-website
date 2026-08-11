@@ -17,10 +17,10 @@ export const albums = [
         coverImage: firstDatesCover,
         description: 'Where it all began... 💖',
         specialCaptions: {
-            'First Dates (1).jpg': 'Our first date and first meet! 😘',
-            'First Dates (2).jpg': 'Kakurtihon ko si Noli 😡',
-            'First Dates (3).jpg': 'Surprise! Heheheh',
-            'First Dates (4).jpg': 'First mot mot!!! 🥰',
+            'First Dates.jpg': 'Our first date and first meet! 😘',
+            'First Dates (27).jpg': 'Kakurtihon ko si Noli 😡',
+            'First Monthsary (1).jpg': 'Surprise! Heheheh',
+            'First Monthsary (2).jpg': 'First mot mot!!! 🥰',
         }
     },
     {
