@@ -3,7 +3,7 @@ import cagsawaCover from '/src/assets/Pictures/Adventures/Cagsawa/Cagsawa (3).jp
 import dagatTripCover from '/src/assets/Pictures/Adventures/Dagat Trip/Dagat Trip (4).jpg';
 import firstDatesCover from '/src/assets/Pictures/Adventures/First Dates/First Dates (1).jpg';
 import farmplateCover from '/src/assets/Pictures/Adventures/Holy Week Farmplate/Farmplate (4).jpg';
-import nyAndCmCover from '/src/assets/Pictures/Adventures/New Year & Christmas/NY and CM (6).jpeg';
+import nyAndCmCover from '/src/assets/Pictures/Adventures/New Year & Christmas/NY and CM (16).jpeg';
 import surfingCover from '/src/assets/Pictures/Adventures/Surfing/Surfing (11).jpeg';
 import friendsAndFamCover from '/src/assets/Pictures/Adventures/With Friends and Fam/FnF (2).jpeg';
 import foodDatesCover from '/src/assets/Pictures/Food Dates/Food (2).jpeg';
