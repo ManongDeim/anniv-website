@@ -1,3 +1,4 @@
+// Cover Images
 import cagsawaCover from '/src/assets/Pictures/Adventures/Cagsawa/Cagsawa (3).jpg';
 import dagatTripCover from '/src/assets/Pictures/Adventures/Dagat Trip/Dagat Trip (4).jpg';
 import firstDatesCover from '/src/assets/Pictures/Adventures/First Dates/First Dates (1).jpg';
@@ -8,6 +9,26 @@ import friendsAndFamCover from '/src/assets/Pictures/Adventures/With Friends and
 import foodDatesCover from '/src/assets/Pictures/Food Dates/Food (2).jpeg';
 import selfiesAndShenanigansCover from '/src/assets/Pictures/Shenanigans/SS (156).jpg';
 
+// Special Captions
+
+// First Dates
+
+//Dagat Trip
+
+// Farmplate
+
+// Cagsawa
+
+// New Year and Christmas
+
+// With Friends and Family
+
+// Surfing
+
+// Shenanigans
+
+// Food Dates
+
 export const albums = [
     {
         id: 'first-dates',
@@ -17,10 +38,10 @@ export const albums = [
         description: 'Where it all began... 💖',
 
         specialCaptions: {
-            'First Dates.jpg': 'Our first date and first meet! 😘',
-            'First Dates (30).jpg': 'Kakurtihon ko si Noli 😡',
-            'First Monthsary (1).jpg': 'Surprise! Heheheh',
-            'First Monthsary (2).jpg': 'First mot mot!!! 🥰',
+            FirstDatesJpg: 'Our first date and first meet! 😘',
+            FirstDatesJpg2: 'Kakurtihon ko si Noli 😡',
+            FirstDatesJpg3: 'Surprise! Heheheh',
+            FirstDatesJpg4: 'First mot mot!!! 🥰',
         }
     },
 
@@ -32,14 +53,14 @@ export const albums = [
         description: 'A trip to the sea 🌊',
 
         specialCaptions: {
-            'Dagat Trip (3).jpg': 'Sato Domingo with speaker ni Nicole hehe',
-            'Dagat Trip (10).jpeg': 'Kayaking with my love! 🛶💖',
-            'Dagat Trip (6).jpg': 'Rainbow! 🌈',
-            'Dagat Trip (13).jpg': 'Bonfire Night 🔥',
-            'Dagat Trip (3).jpeg': 'Corals and Seashells hunting 🐚',
-            'Dagat Trip (25).jpg': 'Twinning necklaces hihi 😘',
-            'Dagat Trip (6).jpeg': 'Cutie baby!!! 🥰',
-            'Dagat Trip (18).jpg': 'Happy!!!',
+            DagatTrip3Jpg: 'Sato Domingo with speaker ni Nicole hehe',
+            DagatTrip10Jpeg: 'Kayaking with my love! 🛶💖',
+            DagatTrip6Jpg: 'Rainbow! 🌈',
+            DagatTrip13Jpg: 'Bonfire Night 🔥',
+            DagatTrip3Jpeg: 'Corals and Seashells hunting 🐚',
+            DagatTrip25Jpg: 'Twinning necklaces hihi 😘',
+            DagatTrip6Jpeg: 'Cutie baby!!! 🥰',
+            DagatTrip18Jpg: 'Happy!!!',
         }
     },
 
@@ -51,7 +72,7 @@ export const albums = [
         description: 'Holy Week getaway to Farmplate 🌾',
 
         specialCaptions: {
-            'Farmplate (5).jpg': 'Meeeh, meeeh 🐐',
+            Farmplate5Jpg: 'Meeeh, meeeh 🐐',
         }
     },
 
@@ -62,8 +83,8 @@ export const albums = [
         coverImage: cagsawaCover,
         description: 'A trip to the Cagsawa Ruins 🏛️',
         specialCaptions: {
-            'Cagsawa (8).jpg': 'Nahulog an bibi sa tamaw hehe',
-            'Cagsawa (1).jpg': 'Carabao 🐃',
+            Cagsawa8Jpg: 'Nahulog an bibi sa tamaw hehe',
+            Cagsawa1Jpg: 'Carabao 🐃',
         }
     },
 
@@ -75,8 +96,8 @@ export const albums = [
         description: 'Celebrating the holidays together 🎄🎉',
 
         specialCaptions: {
-            'NY and CM (9).jpeg': 'New Year 2026 with my LOML! 🥰🎆',
-            'NY and CM (1).jpg': 'Christmas with my love! 🥰🎄',
+           NYAndCM9Jpeg: 'New Year 2026 with my LOML! 🥰🎆',
+            NYAndCM1Jpg: 'Christmas with my love! 🥰🎄',
         }
     },
 
@@ -88,20 +109,20 @@ export const albums = [
         description: 'Memories with our closest people 🤗',
 
         specialCaptions: {
-            'FnF (1).jpeg': 'Outing with Ofalsa Fam',
-            'FnF (5).jpeg': 'Bday Kambal 🎂',
-            'FnF (3).jpeg': 'With Liam Balmes bakla',
-            'FnF (13).jpg': 'Double Date!!!',
-            'FnF (26).jpg': 'First meet with Ofalsa Fam. (Kulbaan ako hehe)',
-            'FnF (31).jpg': 'First meet with Mamay. (Kulbaan ulit ako hehe)',
-            'FnF (17).jpg': 'Christmas in Mandirigma 🎄',
-            'FnF (27).jpg': 'Karaon with Baban and John 🍲',
-            'FnF (32).jpg': 'Sorsogon Date with Kambal',
-            'FnF (29).jpg': 'Perya with duwa na pangit',
-            'FnF (25).JPG': 'Pa camp with Tito (Kulbaan naman ako hehe)',
-            'FnF (8).jpg': 'Uyag sa dagat with Bree 💖',
-            'FnF (24).JPG': 'Karaon kira Liam with Matt (Paasunon ako kaka kanta)',
-            'FnF (9).jpg': 'Sugba with boboy nan party party sa dance floor after',
+            FnF1Jpeg: 'Outing with Ofalsa Fam',
+            FnF5Jpeg: 'Bday Kambal 🎂',
+            FnF3Jpeg: 'With Liam Balmes bakla',
+            FnF13Jpg: 'Double Date!!!',
+            FnF26Jpg: 'First meet with Ofalsa Fam. (Kulbaan ako hehe)',
+            FnF31Jpg: 'First meet with Mamay. (Kulbaan ulit ako hehe)',
+            FnF17Jpg: 'Christmas in Mandirigma 🎄',
+            FnF27Jpg: 'Karaon with Baban and John 🍲',
+            FnF32Jpg: 'Sorsogon Date with Kambal',
+            FnF29Jpg: 'Perya with duwa na pangit',
+            FnF25JPG: 'Pa camp with Tito (Kulbaan naman ako hehe)',
+            FnF8Jpg: 'Uyag sa dagat with Bree 💖',
+            FnF24JPG: 'Karaon kira Liam with Matt (Paasunon ako kaka kanta)',
+            FnF9Jpg: 'Sugba with boboy nan party party sa dance floor after',
         }
     },
 
@@ -113,8 +134,8 @@ export const albums = [
         description: 'Catch the waves together 🏄🏽‍♀️',
 
         specialCaptions: {
-            'Surfing (2).jpeg': 'Sunrise Surf! ☀️',
-            'Surfing (14).jpeg': 'Afternoon Surf! 🌅',
+            Surfing2Jpeg: 'Sunrise Surf! ☀️',
+            Surfing14Jpeg: 'Afternoon Surf! 🌅',
         }
     },
 
@@ -126,38 +147,38 @@ export const albums = [
         description: 'Fun moments and silly faces 😄',
 
         specialCaptions: {
-            'SS (3).jpg': 'Sunset in Bulan 🌅',
-            'SS (2).jpeg': 'Inuman and Lablab after hihi 🤭',
-            'SS (6).jpg': 'Isugon an bibi ko!!! 😘',
-            'SS (15).jpg': 'Jogging pa camp and pamahaw after 🏃🏽‍',
-            'SS (17).jpg': 'Cuteton an bibi ko!!! 😘',
-            'SS (18).jpg': 'More kisses please!!! 🥹',
-            'SS (23).jpeg': 'OJT days',
-            'SS (24).jpg': 'KACUTE SUON!!! 🥰',
-            'SS (25).jpg': 'KACUTE TALAGA SUON!!! 🥰',
-            'SS (26).jpg': 'KACUUUUUUUTE!!! 🥰😡',
-            'SS (62).jpg': 'Pogi!!! 😎',
-            'SS (88).jpeg': 'Kasiraaaaam turuugan ako 🥵🥵🥵',
-            'SS (66).jpeg': 'Bday ni bibi ko!!! 🥰🎂',
-            'SS (67).jpg': '😘😘😘',
-            'SS (79).jpg': 'Isugon yuon!!! 🥰',
-            'SS (85).jpg': 'Cuddle and bebe time saiyo hehe 🥰',
-            'SS (93).jpeg': 'Zoes Resort with my love! 🥰',
-            'SS (94).jpeg': 'Binondo Date ⛩️',
-            'SS (102).jpg': 'Kahamot daw suon 🥹🥹🥹',
-            'SS (116).jpg': 'Uyunon magpa baby san baby koooo 🥹🥰',
-            'SS (117).jpg': 'Pamahaw ice cream 🍦',
-            'SS (125).jpg': 'First photobooth pic 🎞️📷',
-            'SS (140).jpg': 'Co-worker days hehe 🤭',
-            'SS (149).jpg': 'Kinalit sa paskuhan nan nag date sa Daraga hihi 😘',
-            'SS (156).jpg': 'Bicoloko 🎪',
-            'SS (170).JPG': 'Cuddle time sa apartment 🥰',
-            'SS (183).jpg': 'Akay daw nahabol??? 🤔',
-            'SS (182).jpg': 'Asikaso an nakahabol 🙄',
-            'SS (184).jpg': 'Selfie with nag kagat hehe 😘',
-            'SS (37).jpg': 'An ako duwa na baby damulag!!! 🥹',
-            'SS (188).jpg': 'Kawawa na bata dire inpansin nan huluson pa 😭',
-            'SS (105).jpg': 'An cutie pie ko na mag ina!!! 🥰',
+            SS3Jpg: 'Sunset in Bulan 🌅',
+            SS2Jpeg: 'Inuman and Lablab after hihi 🤭',
+            SS6Jpg: 'Isugon an bibi ko!!! 😘',
+            SS15Jpg: 'Jogging pa camp and pamahaw after 🏃🏽‍',
+            SS17Jpg: 'Cuteton an bibi ko!!! 😘',
+            SS18Jpg: 'More kisses please!!! 🥹',
+            SS23Jpeg: 'OJT days',
+            SS24Jpg: 'KACUTE SUON!!! 🥰',
+            SS25Jpg: 'KACUTE TALAGA SUON!!! 🥰',
+            SS26Jpg: 'KACUUUUUUUTE!!! 🥰😡',
+            SS62Jpg: 'Pogi!!! 😎',
+            SS88Jpeg: 'Kasiraaaaam turuugan ako 🥵🥵🥵',
+            SS66Jpeg: 'Bday ni bibi ko!!! 🥰🎂',
+            SS67Jpg: '😘😘😘',
+            SS79Jpg: 'Isugon yuon!!! 🥰',
+            SS85Jpg: 'Cuddle and bebe time saiyo hehe 🥰',
+            SS93Jpeg: 'Zoes Resort with my love! 🥰',
+            SS94Jpeg: 'Binondo Date ⛩️',
+            SS102Jpg: 'Kahamot daw suon 🥹🥹🥹',
+            SS116Jpg: 'Uyunon magpa baby san baby koooo 🥹🥰',
+            SS117Jpg: 'Pamahaw ice cream 🍦',
+            SS125Jpg: 'First photobooth pic 🎞️📷',
+            SS140Jpg: 'Co-worker days hehe 🤭',
+            SS149Jpg: 'Kinalit sa paskuhan nan nag date sa Daraga hihi 😘',
+            SS156Jpg: 'Bicoloko 🎪',
+            SS170JPG: 'Cuddle time sa apartment 🥰',
+            SS183Jpg: 'Akay daw nahabol??? 🤔',
+            SS182Jpg: 'Asikaso an nakahabol 🙄',
+            SS184Jpg: 'Selfie with nag kagat hehe 😘',
+            SS37Jpg: 'An ako duwa na baby damulag!!! 🥹',
+            SS188Jpg: 'Kawawa na bata dire inpansin nan huluson pa 😭',
+            SS105Jpg: 'An cutie pie ko na mag ina!!! 🥰',
         }
     },
 
@@ -169,9 +190,9 @@ export const albums = [
         description: 'Lamon! 🍽️',
 
         specialCaptions: {
-            'Food (37).jpeg': 'Rawr! 🥩',
-            'Food (56).jpg': 'Surprise! Heheheh 🥰',
-            'Food (63).jpg': 'Lamon, Movie, and Lablab 🥰',
+            Food37Jpeg: 'Rawr! 🥩',
+            Food56Jpg: 'Surprise! Heheheh 🥰',
+            Food63Jpg: 'Lamon, Movie, and Lablab 🥰',
 
         }
     },
